@@ -19,7 +19,7 @@ logging.basicConfig(filename='titan_tool.log', level=logging.INFO,
 # --- Constants ---
 APP_TITLE = "Titan Tweak Tool v4.2"
 APP_GEOMETRY = "950x750"
-GITHUB_URL = "https://github.com/YOUR_USERNAME/titan-tweak-tool"
+GITHUB_URL = "https://github.com/RylieHolmes/Titan-Windows-Tweaks-fps-latency-increase-"
 
 # Correctly determine asset directories for both script and bundled .exe
 if getattr(sys, 'frozen', False):
