@@ -1,0 +1,10 @@
+2025-08-28 21:16:10,344 - ERROR - Failed to load icon general.svg: name 'svg2png' is not defined
+2025-08-28 21:16:10,345 - ERROR - Failed to load icon power.svg: name 'svg2png' is not defined
+2025-08-28 21:16:10,345 - ERROR - Failed to load icon mouse.svg: name 'svg2png' is not defined
+2025-08-28 21:16:10,345 - ERROR - Failed to load icon network.svg: name 'svg2png' is not defined
+2025-08-28 21:16:10,345 - ERROR - Failed to load icon storage.svg: name 'svg2png' is not defined
+2025-08-28 21:16:10,345 - ERROR - Failed to load icon debloat.svg: name 'svg2png' is not defined
+2025-08-28 21:16:10,345 - WARNING - Icon file not found: C:\Users\rylie\Desktop\tweak\icons\gpu.svg
+2025-08-28 21:16:10,345 - WARNING - Icon file not found: C:\Users\rylie\Desktop\tweak\icons\memory.svg
+2025-08-28 21:16:10,345 - WARNING - Icon file not found: C:\Users\rylie\Desktop\tweak\icons\clean.svg
+2025-08-28 21:16:10,345 - WARNING - Icon file not found: C:\Users\rylie\Desktop\tweak\icons\app_icon.svg
