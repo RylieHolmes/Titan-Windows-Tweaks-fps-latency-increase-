@@ -51,12 +51,12 @@ class TweakApp(ctk.CTk):
     def __init__(self):
         super().__init__()
 
-        self.overrideredirect(True) # Remove default title bar
+        self.overrideredirect(True) 
         self.title(APP_TITLE); self.geometry(APP_GEOMETRY)
         ctk.set_appearance_mode("dark"); ctk.set_default_color_theme("blue")
         
         self.tweaks = {}; self.tab_tweaks = {}
-        self.x = 0; self.y = 0 # For window dragging
+        self.x = 0; self.y = 0 
 
         if sys.platform == "win32" and not os.path.isdir(SCRIPT_DIR):
             messagebox.showerror("Fatal Error", f"The '{SCRIPT_DIR}' directory was not found.")
@@ -286,4 +286,5 @@ if __name__ == "__main__":
             print("This is a Windows-only application.")
     except Exception as e:
         logging.critical(f"A critical error occurred on startup: {e}")
+
         messagebox.showerror("Startup Error", f"A critical error occurred: {e}\n\nPlease check the titan_tool.log file for more details.")
